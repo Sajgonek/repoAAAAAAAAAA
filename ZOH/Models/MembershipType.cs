@@ -6,11 +6,13 @@ using System.Web;
 
 namespace ZOH.Models
 {
-    public class Room
+    public class MembershipType
     {
         public byte Id { get; set; }
-        public RoomType RoomType { get; set; }
         [Required]
-        public byte RoomTypeId { get; set; }
+        public string Name { get; set; }
+        public short SignUpFee { get; set; }
+        public byte DurationInMonths { get; set; }
+        public byte DiscountRate { get; set; }
     }
 }

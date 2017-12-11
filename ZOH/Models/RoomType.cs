@@ -6,11 +6,10 @@ using System.Web;
 
 namespace ZOH.Models
 {
-    public class Room
+    public class RoomType
     {
         public byte Id { get; set; }
-        public RoomType RoomType { get; set; }
         [Required]
-        public byte RoomTypeId { get; set; }
+        public string Name { get; set; }
     }
 }
