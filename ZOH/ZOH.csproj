@@ -211,6 +211,10 @@
     <Compile Include="Migrations\201712111431394_InitialMigration.Designer.cs">
       <DependentUpon>201712111431394_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201712111505329_PopulateMeMbershipAndRoomTypes.cs" />
+    <Compile Include="Migrations\201712111505329_PopulateMeMbershipAndRoomTypes.Designer.cs">
+      <DependentUpon>201712111505329_PopulateMeMbershipAndRoomTypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -305,6 +309,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201712111431394_InitialMigration.resx">
       <DependentUpon>201712111431394_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712111505329_PopulateMeMbershipAndRoomTypes.resx">
+      <DependentUpon>201712111505329_PopulateMeMbershipAndRoomTypes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
